@@ -1,4 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+// Resx2word  Copyright (C) 2006 - 2007  Joannès Vermorel (www.vermorel.com)
+// This program comes with ABSOLUTELY NO WARRANTY.
+// This is free software, and you are welcome to redistribute it
+// under the conditions defined by the GPL 3 open-source license.
+-->
 <xsl:stylesheet
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:w="http://schemas.microsoft.com/office/word/2003/wordml"
