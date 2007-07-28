@@ -1,0 +1,7 @@
+Version 1.2
+
+* FIXED: Changing the cell focus is no more required to actually commit the change made to the cell content. Some users were having difficulties to actually save the changes they made to a resx file.
+* FIXED: ResxEditor does not crash anymore against resx file containing non-textual content such as images. The non-textual resx content stay untouched by ResxEditor.
+* NEW: Now you can open RESX files directly with ResxEditor. Just right-click on a .resx file, select Open With and choose ResxEditor.exe as the opening program.
+* NEW: It is now possible to display (or hide) the resx resource keys within ResxEditor.
+
