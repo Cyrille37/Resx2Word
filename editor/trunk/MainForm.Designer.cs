@@ -54,7 +54,6 @@ namespace ResxEditor
             this.helpMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutUsMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.xmlGridView = new System.Windows.Forms.DataGridView();
-            this.peopleWordsLink = new System.Windows.Forms.LinkLabel();
             this.fileStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xmlGridView)).BeginInit();
             this.SuspendLayout();
@@ -158,7 +157,7 @@ namespace ResxEditor
             this.defaultTextSizeMenuItem});
             this.textSizeMenuItem.Enabled = false;
             this.textSizeMenuItem.Name = "textSizeMenuItem";
-            this.textSizeMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.textSizeMenuItem.Size = new System.Drawing.Size(132, 22);
             this.textSizeMenuItem.Text = global::ResxEditor.Properties.Resources.TextSizeCommand;
             // 
             // increaseTextSizeMenuItem
@@ -195,13 +194,13 @@ namespace ResxEditor
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(129, 6);
             // 
             // wordCountMenuItem
             // 
             this.wordCountMenuItem.Enabled = false;
             this.wordCountMenuItem.Name = "wordCountMenuItem";
-            this.wordCountMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.wordCountMenuItem.Size = new System.Drawing.Size(132, 22);
             this.wordCountMenuItem.Text = global::ResxEditor.Properties.Resources.WordCountCommand;
             this.wordCountMenuItem.Click += new System.EventHandler(this.wordCountMenuItem_Click);
             // 
@@ -210,7 +209,7 @@ namespace ResxEditor
             this.showKeysToolStripMenuItem.CheckOnClick = true;
             this.showKeysToolStripMenuItem.Enabled = false;
             this.showKeysToolStripMenuItem.Name = "showKeysToolStripMenuItem";
-            this.showKeysToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.showKeysToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.showKeysToolStripMenuItem.Text = "View Keys";
             this.showKeysToolStripMenuItem.Click += new System.EventHandler(this.showKeysToolStripMenuItem_Click);
             // 
@@ -240,27 +239,14 @@ namespace ResxEditor
             this.xmlGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.xmlGridView.Location = new System.Drawing.Point(0, 27);
             this.xmlGridView.Name = "xmlGridView";
-            this.xmlGridView.Size = new System.Drawing.Size(632, 305);
+            this.xmlGridView.Size = new System.Drawing.Size(632, 339);
             this.xmlGridView.TabIndex = 1;
-            // 
-            // peopleWordsLink
-            // 
-            this.peopleWordsLink.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.peopleWordsLink.AutoSize = true;
-            this.peopleWordsLink.Location = new System.Drawing.Point(12, 344);
-            this.peopleWordsLink.Name = "peopleWordsLink";
-            this.peopleWordsLink.Size = new System.Drawing.Size(158, 13);
-            this.peopleWordsLink.TabIndex = 2;
-            this.peopleWordsLink.TabStop = true;
-            this.peopleWordsLink.Text = "By PeopleWords, ???????????";
-            this.peopleWordsLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.peopleWordsLink_LinkClicked);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(632, 366);
-            this.Controls.Add(this.peopleWordsLink);
             this.Controls.Add(this.xmlGridView);
             this.Controls.Add(this.fileStrip);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -293,7 +279,6 @@ namespace ResxEditor
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem helpMenu;
         private System.Windows.Forms.ToolStripMenuItem aboutUsMenuItem;
-        private System.Windows.Forms.LinkLabel peopleWordsLink;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripMenuItem printMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;

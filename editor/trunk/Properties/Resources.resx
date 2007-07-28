@@ -157,9 +157,6 @@
     <value>Increase</value>
     <comment>Like: *Increase* text size.</comment>
   </data>
-  <data name="Motto" xml:space="preserve">
-    <value>By PeopleWords, Online translation services</value>
-  </data>
   <data name="NameHeader" xml:space="preserve">
     <value>Internal Name</value>
   </data>
