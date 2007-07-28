@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resx2word", "Resx2word\Resx2word.csproj", "{F98AE739-B731-47A9-9EF4-F59FB62677D0}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word2resx", "Word2resx\Word2resx.csproj", "{4BF08A9C-6CFA-4517-983C-82A23144903B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F98AE739-B731-47A9-9EF4-F59FB62677D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F98AE739-B731-47A9-9EF4-F59FB62677D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F98AE739-B731-47A9-9EF4-F59FB62677D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F98AE739-B731-47A9-9EF4-F59FB62677D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF08A9C-6CFA-4517-983C-82A23144903B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF08A9C-6CFA-4517-983C-82A23144903B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BF08A9C-6CFA-4517-983C-82A23144903B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF08A9C-6CFA-4517-983C-82A23144903B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
