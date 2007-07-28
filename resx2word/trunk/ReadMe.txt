@@ -6,7 +6,7 @@ Date: July 28th, 2007
 
 URL: http://resx.sourceforge.net
 
-Cnvert your Microsoft RESX 2.0 resource files into Microsoft Word 2003 documents (and vice-versa). The purpose of such a conversion is to let the translators work in a more convenient and familiar environment (i.e. MS Word) as opposed to raw XML files editor.
+Convert your Microsoft RESX 2.0 resource files into Microsoft Word 2003 documents (and vice-versa). The purpose of such a conversion is to let the translators work in a more convenient and familiar environment (i.e. MS Word) as opposed to raw XML files editor.
 
 =======================================================
 USAGE: resx2word.exe InputRESX OutputWORD
