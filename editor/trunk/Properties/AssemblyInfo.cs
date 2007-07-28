@@ -8,12 +8,12 @@ using System.Resources;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ResxEditor")]
-[assembly: AssemblyDescription("RESX Editor is a simple translation-oriented resource editor. This program is provided AS-IS by PeopleWords.com without any guaranty of any kind. This program may be used for free but cannot be redistributed without the explicit consent of PeopleWords.com. Authors: Joannes Vermorel, Nick Pasko")]
+[assembly: AssemblyDescription("RESX Editor is a simple translation-oriented resource editor. This program is provided AS-IS without any guaranty of any kind. Authors: Joannes Vermorel, Nick Pasko")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("PeopleWords.com")]
+[assembly: AssemblyCompany("vermorel.com")]
 [assembly: AssemblyProduct("ResxEditor")]
-[assembly: AssemblyCopyright("Copyright ©2006, PeopleWords.com")]
-[assembly: AssemblyTrademark("PeopleWords.com")]
+[assembly: AssemblyCopyright("Copyright ©2006 - 2007, Joannes Vermorel, vermorel.com")]
+[assembly: AssemblyTrademark("vermorel.com")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
