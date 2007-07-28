@@ -38,7 +38,6 @@ namespace ResxEditor
             xmlGridView.CellValueChanged += new DataGridViewCellEventHandler(xmlGridView_CellValueChanged);
             xmlGridView.CellBeginEdit += new DataGridViewCellCancelEventHandler(xmlGridView_CellBeginEdit);
             xmlGridView.CurrentCellDirtyStateChanged += new EventHandler(xmlGridView_CurrentCellDirtyStateChanged);
-            peopleWordsLink.Text = Resources.Motto;
             this.Text = Resources.Title;
             if (args.Length > 0)
             {
@@ -317,12 +316,6 @@ namespace ResxEditor
         {
             AboutBox aboutBox = new AboutBox();
             aboutBox.ShowDialog();
-        } 
-        #endregion
-        #region peopleWordsLink_LinkClicked
-        private void peopleWordsLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start("http://www.peoplewords.com");
         } 
         #endregion
         #region printMenuItem_Click
