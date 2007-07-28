@@ -13,7 +13,7 @@ using System.Resources;
 [assembly: AssemblyCompany("vermorel.com")]
 [assembly: AssemblyProduct("ResxEditor")]
 [assembly: AssemblyCopyright("Copyright ©2006 - 2007, Joannes Vermorel, vermorel.com")]
-[assembly: AssemblyTrademark("vermorel.com")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
