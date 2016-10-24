@@ -11,11 +11,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Word2resx")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Word2resx permits to convert Microsoft Word documents into Microsof RESX 2.0 files. This program is provided AS-IS without any guaranty of any kind.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("none")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Word2resx")]
-[assembly: AssemblyCopyright("Copyright © none 2007")]
+[assembly: AssemblyCopyright("Copyright © 2006-2007 Joannes Vermorel, Lionel Fourquaux - 2016 Cyrille Giquello")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

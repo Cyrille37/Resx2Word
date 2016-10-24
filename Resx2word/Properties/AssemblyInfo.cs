@@ -1,4 +1,5 @@
-﻿// Resx2word Copyright (C) 2006 - 2007  Joannès Vermorel (www.vermorel.com)
+﻿using System.Resources;
+// Resx2word Copyright (C) 2006 - 2007  Joannès Vermorel (www.vermorel.com)
 // This program comes with ABSOLUTELY NO WARRANTY.
 // This is free software, and you are welcome to redistribute it
 // under the conditions defined by the GPL 3 open-source license.
@@ -11,11 +12,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Resx2word")]
-[assembly: AssemblyDescription("Resx2word is a simple converter of Microsof RESX documents into Microsoft Word documents. This program is provided AS-IS without any guaranty of any kind. Authors: Joannes Vermorel, Lionel Fourquaux")]
+[assembly: AssemblyDescription("Resx2word permits to convert Microsof RESX 2.0 files into Microsoft Word documents. This program is provided AS-IS without any guaranty of any kind.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("vermorel.com")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Resx2word")]
-[assembly: AssemblyCopyright("Copyright ©2006 - 2007, Joannes Vermorel, vermorel.com")]
+[assembly: AssemblyCopyright("Copyright © 2006-2007 Joannes Vermorel, Lionel Fourquaux - 2016 Cyrille Giquello")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -34,5 +35,7 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.1.0.0")]
+[assembly: AssemblyFileVersion("1.1.0.0")]
+[assembly: NeutralResourcesLanguage("")]
+
