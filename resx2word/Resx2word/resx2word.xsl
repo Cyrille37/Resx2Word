@@ -18,6 +18,7 @@
     media-type="text/xml" />
   <xsl:preserve-space elements="value" />
   <xsl:template match="root">
+    
     <xsl:processing-instruction name="mso-application">
       <xsl:text>progid="Word.Document"</xsl:text>
     </xsl:processing-instruction>
@@ -136,8 +137,10 @@
             </w:t>
           </w:r>
         </w:p>
-        <xsl:apply-templates select="data" />
-        <w:sectPr>
+        <xsl:apply-templates select="data" >
+          <xsl:sort select="@name"/>
+        </xsl:apply-templates>
+          <w:sectPr>
           <w:pgSz w:w="11906" w:h="16838" w:orient="portrait" />
           <w:pgMar
             w:top="1440"
